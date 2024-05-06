@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import advogadaFigure from '../../../public/images/presentation/Advogada.svg'
 
 export const Presentation = () => {
   return (
@@ -26,9 +25,11 @@ export const Presentation = () => {
       </div>
       <div className="w-full max-w-96 max-sm:py-5">
         <Image
-          src={advogadaFigure}
+          src="images/presentation/advogada.svg"
           alt="Dra. Pessaoa"
           className="max-sm:max-w-80"
+          width={574}
+          height={564}
         />
       </div>
     </main>

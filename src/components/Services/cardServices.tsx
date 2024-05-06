@@ -11,7 +11,13 @@ interface ICardServices {
 export const CardServices = ({ image, title, text }: ICardServices) => {
   return (
     <li className="max-w-80 bg-[#F8F4EF] p-5 flex flex-col items-center gap-3  text-center rounded-lg max-sm:max-w-72">
-      <Image src={image} alt="Divórcio" className="h-24 max-sm:h-16" />
+      <Image
+        src={image}
+        alt="Divórcio"
+        className="h-24 max-sm:h-16"
+        width={100}
+        height={100}
+      />
       <h3 className="text-3xl h-20 flex items-center text-[#60503E] max-sm:text-xl max-sm:h-10">
         {title}
       </h3>

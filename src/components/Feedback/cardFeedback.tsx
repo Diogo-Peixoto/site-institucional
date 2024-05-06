@@ -1,5 +1,5 @@
 import { FaStar } from 'react-icons/fa'
-import imageFeedback from '../../../public/images/feedback/feedback-image.png'
+
 import Image from 'next/image'
 
 export const CardFeedback = () => {
@@ -9,7 +9,12 @@ export const CardFeedback = () => {
         5,0 <FaStar color="#F0AD4E" />
       </div>
       <div className="flex gap-5">
-        <Image src={imageFeedback} alt="Usuario" />
+        <Image
+          src="/images/feedback/feedback-image.png"
+          alt="Usuario"
+          width={56}
+          height={60}
+        />
         <div>
           <p className="font-medium">Gabriela Germano</p>
           <p className="font-light">Cliente</p>

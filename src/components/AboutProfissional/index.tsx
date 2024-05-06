@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Profissional from '../../../public/images/WhyChoose/profissional.png'
+
 import { Title2 } from '../Title2'
 import { SimpleText } from '../SimpleText'
 
@@ -7,9 +7,11 @@ export const AboutProfissional = () => {
   return (
     <section className="container mx-auto py-24 px-3 flex gap-9 items-center justify-center max-sm:flex-col">
       <Image
-        src={Profissional}
+        src="/images/WhyChoose/profissional.png'"
         alt="Dra. Maria"
         className="rounded-lg max-sm:max-w-72 max-lg:max-w-[400px]"
+        width={600}
+        height={430}
       />
       <div className="max-w-[600px] flex flex-col gap-5 max-sm:text-center max-sm:max-w-[400px]">
         <Title2>

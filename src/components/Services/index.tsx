@@ -1,8 +1,4 @@
 import { Title2 } from '../Title2'
-import DivorceIcon from '../../../public/images/services/divorce-icon.svg'
-import FamilyIcon from '../../../public/images/services/family-icon.svg'
-import BalanceIcon from '../../../public/images/services/balance-icon.svg'
-import FoodIcon from '../../../public/images/services/food-icone.svg'
 
 import { CardServices } from './cardServices'
 
@@ -15,22 +11,22 @@ export const Services = () => {
 
       <ul className="w-full grid grid-cols-4 gap-5 justify-items-center max-lg:grid-cols-2 max-sm:grid-cols-1">
         <CardServices
-          image={DivorceIcon}
+          image="/images/services/divorce-icon.svg"
           title="Divórcio"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
         />
         <CardServices
-          image={FamilyIcon}
+          image="/images/services/family-icon.svg"
           title="Guarda de Filhos"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
         />
         <CardServices
-          image={BalanceIcon}
+          image="/images/services/balance-icon.svg"
           title="Guarda Compartilhada"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
         />
         <CardServices
-          image={FoodIcon}
+          image="/images/services/food-icone.svg"
           title="Pensão Alimentícia"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
         />

@@ -1,4 +1,4 @@
-// File: C:\Users\diogo\OneDrive\Área de Trabalho\Templates\template-advogada\src\app\page.tsx
+// File: C:\Users\diogo\OneDrive\Projetos\site-institucional\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
