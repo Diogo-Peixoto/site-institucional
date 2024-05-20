@@ -7,7 +7,7 @@ export const AboutProfissional = () => {
   return (
     <section className="container mx-auto py-24 px-3 flex gap-9 items-center justify-center max-sm:flex-col">
       <Image
-        src="/images/WhyChoose/profissional.png'"
+        src="/images/whyChoose/profissional.png"
         alt="Dra. Maria"
         className="rounded-lg max-sm:max-w-72 max-lg:max-w-[400px]"
         width={600}
