@@ -20,7 +20,7 @@ export const Presentation = () => {
           href=""
           className="h-12 w-80 text-white bg-[#987F61] flex items-center justify-center rounded-full text-lg max-md:h-10 max-md:w-56 max-md:text-sm"
         >
-          Chamada para ação
+          Entrar em contato
         </Link>
       </div>
       <div className="w-full max-w-96 max-sm:py-5">
