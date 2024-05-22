@@ -1,6 +1,5 @@
 import { FaFacebookSquare, FaWhatsapp, FaInstagram } from 'react-icons/fa'
 import { SimpleText } from '../SimpleText'
-import Link from 'next/link'
 
 export const Footer = () => {
   return (
