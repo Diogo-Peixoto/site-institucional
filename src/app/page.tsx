@@ -1,5 +1,6 @@
 import { AboutProfissional } from '@/components/AboutProfissional'
 import { Feedback } from '@/components/Feedback'
+import { Footer } from '@/components/Footer'
 import { PhysicalSpace } from '@/components/PhysicalSpace'
 import { Presentation } from '@/components/Presentation'
 import { Services } from '@/components/Services'
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Feedback />
       <PhysicalSpace />
+      <Footer />
     </>
   )
 }

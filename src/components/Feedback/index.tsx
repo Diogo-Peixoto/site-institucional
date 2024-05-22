@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import { Title2 } from '../Title2'
 import { CardFeedback } from './cardFeedback'
 import {
@@ -9,8 +8,6 @@ import {
 } from '@/components/ui/carousel'
 
 export const Feedback = () => {
-
-
   return (
     <section className="container m-auto flex flex-col gap-3  items-center max-sm:px-0">
       <Title2>
